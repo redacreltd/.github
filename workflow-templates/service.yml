@@ -68,10 +68,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+        # final image created as <platform>/<service>:tag
       - id: docker-build
         uses: redacreltd/actions/docker-build@v2
         with:
-          # final image created as <platform>/<service>
           app_name: <service>
           build-args: CHANGEME
           context: CHANGEME
