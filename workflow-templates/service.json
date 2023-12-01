@@ -1,8 +1,0 @@
-{
-  "name": "Service Workflow",
-  "description": "Service CI starter workflow. Apply company standards.",
-  "iconName": "octicon container",
-  "categories": [
-      "continuous-integration"
-  ]
-}
